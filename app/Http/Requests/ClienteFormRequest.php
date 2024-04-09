@@ -29,7 +29,7 @@ class ClienteFormRequest extends FormRequest
             'endereco'=>'required|max:120|min:10',
             'telefone'=>'required|max:14|min:10',
             'email'=>'required|max:120|email:rfc|unique:clientes,email',
-            'cpf'=>'required|max:11|cpf:rfc|unique:clientes,cpf',
+            'cpf'=>'required|max:11|unique:clientes,cpf',
             'password'=>'required'
         ];
     }
