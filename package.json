@@ -11,6 +11,9 @@
         "vite": "^5.0"
     },
     "dependencies": {
-        "react-native-image-picker": "^7.1.2"
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-native-image-picker": "^7.1.2",
+        "uuid": "^9.0.1"
     }
 }
